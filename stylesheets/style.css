@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Typ;
+    src: url(ufonts.com_american-typewriter.ttf);
+}
+
+* {
+  font-family: Typ;
+  color: white;
+}
+
+h2, p, form, div {
+  text-align: center;
+}
+
+input[type=button]
+{
+  background-color: #FF6700; 
+  color: black;
+}
+
+input[type=button]:hover
+{
+  background-color: #deff26
+}
+
+body {
+  background-color: rgba(62,52,42,.8);
+  background-size: cover;
+  line-height: 23px;
+}
+
+a{
+  color: #FF6700; /*#FF6700*/
+}
+
+a:hover  {
+  color: #deff26; /*#DD0048*/
+  text-decoration: none;
+}
